@@ -1,7 +1,9 @@
 #Scala Project 
+
 This project is designed to keep a listener on a specified folder, read all files uploaded to that folder, apply discounts to each row based on specific qualifications, calculate the final price after discount, and store the resulting data in a MySQL database.
 
 #File Processing 
+
 The project uses a watcher to read all files copied to the specified folder path. The watcher is always open and can read any amount of files. Each file is processed individually with the following steps:
 
 A try-catch block is used to read each file. If a file reading exception occurs, the program will retry reading the file three times. If it still fails, the program will skip the file and move to the next one without closing the watcher.
@@ -20,6 +22,7 @@ A list of case class objects is created, with each object containing both functi
 A function is created to write a log file.
 A function is created to calculate the discount. If there is only one discount, it is printed. If there are no discounts, 0 is printed. If there are more than one discounts, the highest two are used to calculate the average.
 #Team
+
 This project was completed by the following team members:
 
 Mohamed Ahmed Fathy
