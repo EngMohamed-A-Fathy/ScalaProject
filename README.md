@@ -16,12 +16,12 @@ The project uses a watcher to read all files copied to the specified folder path
 # Discount Function
 The project includes six qualification rules that determine whether a discount should be applied or not. To evaluate these rules, the following functions were created:
 
-Six functions to check whether the data qualifies for each rule.
-Six functions to calculate the discount based on each rule.
-A case class is used to assign each check function and discount calculation function as one element.
-A list of case class objects is created, with each object containing both functions.
-A function is created to write a log file.
-A function is created to calculate the discount. If there is only one discount, it is printed. If there are no discounts, 0 is printed. If there are more than one discounts, the highest two are used to calculate the average.
+- Six functions to check whether the data qualifies for each rule.
+- Six functions to calculate the discount based on each rule.
+- A case class is used to assign each check function and discount calculation function as one element.
+- A list of case class objects is created, with each object containing both functions.
+- A function is created to write a log file.
+- A function is created to calculate the discount. If there is only one discount, it is printed. If there are no discounts, 0 is printed. If there are more than one discounts, the highest two are used to calculate the average.
 # Team
 
 ## This project was completed by the following team members:
