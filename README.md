@@ -1,4 +1,4 @@
-#Scala Project 
+# Scala Project 
 
 This project is designed to keep a listener on a specified folder, read all files uploaded to that folder, apply discounts to each row based on specific qualifications, calculate the final price after discount, and store the resulting data in a MySQL database.
 
